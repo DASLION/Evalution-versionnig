@@ -1,3 +1,32 @@
+body, html {
+  height: 100%;
+}
+img {
+  width: 100%;
+  height: 700px;;
+  }
+/* The hero image */
+.hero-image {
+/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+
+/* Set a specific height */
+
+
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+position: relative;
+}
+.hero-text {
+  font-size:x-large ;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 button {
   font-size:x-large ;
   text-align: center;
